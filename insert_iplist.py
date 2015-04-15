@@ -9,8 +9,12 @@ def read_file(ini_file,iplist):
     ini_content = []
     with open(ini_file,"rb") as f:
         for line in f:
-            if line.startswith("google_cn") or line.startswith("google_hk"):
-                line = line[:12]+iplist+"\r\n"
+            if line.startswith("google_cn"):
+                line = "google_cn = %s\r\n"%(iplist)
+            elif line.startswith("google_hk"):
+                line = "google_hk = %s\r\n"%(iplist)
+            elif line.startswith("google_talk"):
+                line = "google_talk = %s\r\n"%(iplist)
             ini_content.append(line)
         return ini_content
 
