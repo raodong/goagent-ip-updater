@@ -11,8 +11,8 @@ Goagent IP Updater
 ## Documents
 |    |   |
 | --------   | :----  |
-| Simple Guide | https://github.com/alen-alex/goagent-ip-updater/SimpleGuide.md |
-| History | https://github.com/alen-alex/goagent-ip-updater/History.md |
+| Simple Guide | https://github.com/alen-alex/goagent-ip-updater/blob/master/SimpleGuide.md |
+| History | https://github.com/alen-alex/goagent-ip-updater/blob/master/History.md |
 
 ## Code
 | | |
