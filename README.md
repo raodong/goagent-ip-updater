@@ -1,9 +1,8 @@
 Goagent IP Updater
 ======================================
 Goagent IP Updater is an app to automatically update the usable server IP addresses to your goagent config file, according to their response speed.
-
 A default server IP list are provided, while cumstom IP list can be specified with a 'iplist.lst' file.
-======================================
+
 ## About
 |    |   |
 | --------   | :----  |
