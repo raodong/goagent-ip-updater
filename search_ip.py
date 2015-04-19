@@ -3,6 +3,7 @@ from utils.config import config_thread_num
 from utils.common import adapt_encoding
 from utils.connect import filter_useful_ip
 from utils.io import get_iplist,update_ini
+from utils.task import auto_start
 
 def main():
     try:
@@ -26,12 +27,12 @@ def main():
         except Exception as e:
             print(e)
         else:
-            print(adapt_encoding("配置文件更新成功，请重启goagent服务"))
-    exit()
-
-def exit():
-    print(adapt_encoding("输入回车退出..."))
-    a = raw_input()
+            print(adapt_encoding("配置文件更新成功"))
+            goagent_path = os.path.join(
+                    os.path.abspath(os.path.dirname("__file__")),
+                    "local/goagent.exe")
+            auto_start(goagent_path)
+    raw_input(adapt_encoding("输入回车退出..."))
 
 if __name__ == '__main__':
     main()
