@@ -8,8 +8,8 @@ A default server IP list are provided, while cumstom IP list can be specified wi
 | --------   | :----  |
 | Author | alen-alex |
 | HomePage | https://github.com/alen-alex/goagent-ip-updater |
-| Last updated | 2015-04-19 |
-| Latest version | 0.1.3 |
+| Last updated | 2015-04-24 |
+| Latest version | 0.1.4 |
 
 ## Documents
 |    |   |
